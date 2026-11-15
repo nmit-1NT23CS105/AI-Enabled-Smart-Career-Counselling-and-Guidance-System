@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | CareerSense AI</title>
+    <link rel="icon" href="/assets/icons/logo.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main class="auth-page">
+      <section class="auth-shell">
+        <aside class="auth-aside">
+          <a class="brand" href="/">
+            <img src="/assets/icons/logo.svg" alt="CareerSense AI logo" />
+            <span>CareerSense AI</span>
+          </a>
+          <h2>Create your profile</h2>
+          <p>Start your assessment.</p>
+        </aside>
+
+        <section class="auth-card fade-up">
+          <a class="brand" href="/">
+            <img src="/assets/icons/logo.svg" alt="CareerSense AI logo" />
+            <span>CareerSense AI</span>
+          </a>
+          <h1>Create account</h1>
+
+          <form id="registerForm" novalidate>
+            <div class="input-group">
+              <label for="fullName">Full Name</label>
+              <input id="fullName" name="fullName" type="text" autocomplete="name" placeholder="Your full name" required />
+            </div>
+
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="student@example.com" required />
+            </div>
+
+            <div class="input-group">
+              <label for="academicLevel">Academic Level</label>
+              <select id="academicLevel" name="academicLevel" required>
+                <option value="">Select academic level</option>
+                <option value="High School (8th - 10th)">High School (8th - 10th)</option>
+                <option value="Intermediate / PUC (11th - 12th)">Intermediate / PUC (11th - 12th)</option>
+                <option value="Undergraduate Student">Undergraduate Student</option>
+                <option value="Job Seeker">Job Seeker</option>
+                <option value="Higher Studies Aspirant">Higher Studies Aspirant</option>
+              </select>
+            </div>
+
+            <div class="input-group">
+              <label for="password">Password</label>
+              <input id="password" name="password" type="password" autocomplete="new-password" placeholder="At least 8 characters" required />
+            </div>
+
+            <div class="input-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <input id="confirmPassword" name="confirmPassword" type="password" autocomplete="new-password" placeholder="Repeat password" required />
+            </div>
+
+            <p class="form-help">Use 8+ characters with a letter and number.</p>
+            <p class="form-message" id="formMessage" role="status"></p>
+            <button class="btn btn-primary btn-full" type="submit" id="registerButton">Register</button>
+          </form>
+
+          <p class="switch-link">Already registered? <a href="/login">Login</a></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/js/register.js"></script>
+  </body>
+</html>

@@ -1,0 +1,568 @@
+{
+  "levels": {
+    "high_school": {
+      "label": "High School (8th - 10th)",
+      "weights": {
+        "academic_performance": 30,
+        "favorite_subjects": 25,
+        "activities": 20,
+        "strength_areas": 25
+      },
+      "recommendations": [
+        {
+          "name": "Science Stream",
+          "description": "A broad science path for students who enjoy mathematics, science, experimentation, and analytical learning.",
+          "criteria": {
+            "subjects": ["Mathematics", "Science", "Computer Science"],
+            "favorite_subjects": ["Mathematics", "Science", "Computer Science"],
+            "activities": ["Coding", "Robotics", "Debates"],
+            "strengths": ["Problem Solving", "Critical Thinking", "Teamwork"]
+          },
+          "next_steps": ["Join a science club or lab activity", "Practice mathematics and science problem sets weekly", "Explore beginner coding or robotics projects"],
+          "suggested_activities": ["Science fair", "Robotics club", "Coding challenges"]
+        },
+        {
+          "name": "Commerce Stream",
+          "description": "A business-oriented stream for students interested in economics, finance, accounting, entrepreneurship, and market systems.",
+          "criteria": {
+            "subjects": ["Mathematics", "English", "Social Studies"],
+            "favorite_subjects": ["Economics", "Mathematics", "English"],
+            "activities": ["Debates", "Leadership Activities", "Volunteering"],
+            "strengths": ["Communication", "Leadership", "Critical Thinking"]
+          },
+          "next_steps": ["Read basic business and finance case studies", "Participate in debates or school commerce activities", "Build presentation and data interpretation skills"],
+          "suggested_activities": ["Business quiz", "Debate club", "Student council"]
+        },
+        {
+          "name": "Arts Stream",
+          "description": "A humanities path for students who like language, society, communication, history, culture, and creative expression.",
+          "criteria": {
+            "subjects": ["English", "Social Studies"],
+            "favorite_subjects": ["English", "Social Studies", "Economics"],
+            "activities": ["Debates", "Music", "Dance", "Volunteering"],
+            "strengths": ["Communication", "Creativity", "Critical Thinking"]
+          },
+          "next_steps": ["Write essays or opinion pieces regularly", "Take part in public speaking and cultural activities", "Explore psychology, history, and social science topics"],
+          "suggested_activities": ["Writing club", "Public speaking", "Community volunteering"]
+        },
+        {
+          "name": "Medical Path",
+          "description": "A focused science direction for students who are strong in biology and interested in healthcare, medicine, and life sciences.",
+          "criteria": {
+            "subjects": ["Biology", "Science", "English"],
+            "favorite_subjects": ["Biology", "Science"],
+            "activities": ["Volunteering", "Debates", "Leadership Activities"],
+            "strengths": ["Critical Thinking", "Communication", "Teamwork"]
+          },
+          "next_steps": ["Strengthen biology fundamentals", "Explore healthcare awareness programs", "Build disciplined study habits for future entrance preparation"],
+          "suggested_activities": ["Health awareness club", "Biology models", "First-aid workshop"]
+        },
+        {
+          "name": "Engineering Path",
+          "description": "A technical foundation path for students who enjoy mathematics, physics, computers, building systems, and solving complex problems.",
+          "criteria": {
+            "subjects": ["Mathematics", "Science", "Computer Science"],
+            "favorite_subjects": ["Mathematics", "Computer Science", "Science"],
+            "activities": ["Coding", "Robotics", "Drawing"],
+            "strengths": ["Problem Solving", "Critical Thinking", "Creativity"]
+          },
+          "next_steps": ["Practice mathematical reasoning", "Create small coding or electronics projects", "Learn the basics of engineering design thinking"],
+          "suggested_activities": ["Robotics", "Coding contests", "Math olympiad practice"]
+        },
+        {
+          "name": "Law Path",
+          "description": "A foundation path for students who enjoy debate, reading, social issues, leadership, and structured argumentation.",
+          "criteria": {
+            "subjects": ["English", "Social Studies"],
+            "favorite_subjects": ["English", "Social Studies", "Economics"],
+            "activities": ["Debates", "Leadership Activities", "Volunteering"],
+            "strengths": ["Communication", "Critical Thinking", "Leadership"]
+          },
+          "next_steps": ["Participate in debates and model parliament activities", "Read current affairs regularly", "Practice structured writing and reasoning"],
+          "suggested_activities": ["Debate club", "Model parliament", "Current affairs quiz"]
+        },
+        {
+          "name": "Design Path",
+          "description": "A creative foundation path for students who enjoy visual thinking, drawing, storytelling, user empathy, and original ideas.",
+          "criteria": {
+            "subjects": ["English", "Computer Science", "Social Studies"],
+            "favorite_subjects": ["English", "Computer Science"],
+            "activities": ["Drawing", "Music", "Dance", "Coding"],
+            "strengths": ["Creativity", "Communication", "Problem Solving"]
+          },
+          "next_steps": ["Start a sketchbook or digital portfolio", "Explore UI design and visual storytelling", "Participate in art, design, or presentation activities"],
+          "suggested_activities": ["Drawing competitions", "Poster design", "UI design basics"]
+        }
+      ]
+    },
+    "intermediate": {
+      "label": "Intermediate / PUC (11th - 12th)",
+      "weights": {
+        "subject_marks": 35,
+        "interests": 25,
+        "skills": 20,
+        "career_goal": 20
+      },
+      "recommendations": [
+        {
+          "name": "B.Tech",
+          "description": "Engineering degree path for students interested in technology, software, systems, electronics, or applied problem solving.",
+          "criteria": {
+            "streams": ["MPC"],
+            "subjects": ["Mathematics", "Physics", "Chemistry"],
+            "interests": ["AI", "Software", "Research", "Design"],
+            "skills": ["Logical Reasoning", "Problem Solving"],
+            "keywords": ["engineering", "software", "technology", "ai", "machine", "developer"]
+          },
+          "exams": ["JEE Main", "JEE Advanced", "State EAMCET / CET", "BITSAT"],
+          "required_skills": ["Mathematics", "Logical reasoning", "Programming basics", "Problem solving"],
+          "next_steps": ["Prepare a JEE or state engineering entrance plan", "Start beginner programming", "Build a small technical project"]
+        },
+        {
+          "name": "MBBS",
+          "description": "Medical degree path for students who are strong in biology and motivated by healthcare, patient care, and life sciences.",
+          "criteria": {
+            "streams": ["BiPC"],
+            "subjects": ["Biology", "Physics", "Chemistry"],
+            "interests": ["Healthcare", "Research"],
+            "skills": ["Communication", "Problem Solving"],
+            "keywords": ["doctor", "medicine", "medical", "healthcare", "biology"]
+          },
+          "exams": ["NEET UG"],
+          "required_skills": ["Biology mastery", "Chemistry concepts", "Consistency", "Empathy and communication"],
+          "next_steps": ["Build a NEET study timetable", "Revise biology NCERT deeply", "Practice physics and chemistry MCQs"]
+        },
+        {
+          "name": "BDS",
+          "description": "Dental sciences path for students interested in healthcare, biology, precision work, and clinical practice.",
+          "criteria": {
+            "streams": ["BiPC"],
+            "subjects": ["Biology", "Chemistry", "Physics"],
+            "interests": ["Healthcare"],
+            "skills": ["Communication", "Creativity", "Problem Solving"],
+            "keywords": ["dental", "dentist", "healthcare", "biology"]
+          },
+          "exams": ["NEET UG"],
+          "required_skills": ["Biology", "Manual precision", "Patient communication", "Clinical discipline"],
+          "next_steps": ["Prepare for NEET", "Learn about dental career tracks", "Improve hand-eye coordination through practical activities"]
+        },
+        {
+          "name": "B.Sc",
+          "description": "Science degree path for students interested in research, pure sciences, analytics, healthcare sciences, or academic careers.",
+          "criteria": {
+            "streams": ["MPC", "BiPC"],
+            "subjects": ["Mathematics", "Biology", "Physics", "Chemistry"],
+            "interests": ["Research", "AI", "Healthcare"],
+            "skills": ["Logical Reasoning", "Problem Solving"],
+            "keywords": ["science", "research", "physics", "chemistry", "biology", "math"]
+          },
+          "exams": ["CUET", "University entrance exams"],
+          "required_skills": ["Conceptual clarity", "Research mindset", "Data interpretation"],
+          "next_steps": ["Shortlist B.Sc specializations", "Explore research internships after admission", "Practice scientific writing"]
+        },
+        {
+          "name": "BCA",
+          "description": "Computer applications path for students interested in software, coding, web development, data, and IT careers.",
+          "criteria": {
+            "streams": ["MPC", "MEC", "CEC"],
+            "subjects": ["Mathematics", "Commerce"],
+            "interests": ["Software", "AI", "Business"],
+            "skills": ["Logical Reasoning", "Problem Solving", "Creativity"],
+            "keywords": ["software", "coding", "developer", "computer", "it"]
+          },
+          "exams": ["CUET", "University entrance exams"],
+          "required_skills": ["Programming basics", "Logical reasoning", "Database basics"],
+          "next_steps": ["Start Python or JavaScript", "Build a web portfolio project", "Learn database fundamentals"]
+        },
+        {
+          "name": "B.Com",
+          "description": "Commerce degree path for students interested in accounting, finance, business operations, taxation, or management.",
+          "criteria": {
+            "streams": ["MEC", "CEC", "HEC"],
+            "subjects": ["Commerce", "Economics", "Mathematics"],
+            "interests": ["Finance", "Business"],
+            "skills": ["Communication", "Logical Reasoning", "Leadership"],
+            "keywords": ["commerce", "finance", "business", "accounts", "management"]
+          },
+          "exams": ["CUET", "University entrance exams"],
+          "required_skills": ["Accounting basics", "Economics", "Business communication"],
+          "next_steps": ["Learn accounting fundamentals", "Explore finance certifications", "Follow business news weekly"]
+        },
+        {
+          "name": "CA",
+          "description": "Chartered Accountancy path for students with strong commerce interest, discipline, numerical ability, and financial reasoning.",
+          "criteria": {
+            "streams": ["MEC", "CEC"],
+            "subjects": ["Commerce", "Economics", "Mathematics"],
+            "interests": ["Finance", "Business"],
+            "skills": ["Logical Reasoning", "Problem Solving"],
+            "keywords": ["ca", "chartered", "accounting", "audit", "tax"]
+          },
+          "exams": ["CA Foundation"],
+          "required_skills": ["Accounting", "Tax basics", "Discipline", "Analytical thinking"],
+          "next_steps": ["Understand the CA Foundation syllabus", "Strengthen accounting and mathematics", "Create a long-term exam plan"]
+        },
+        {
+          "name": "CS",
+          "description": "Company Secretary path for students interested in corporate law, compliance, governance, and business regulation.",
+          "criteria": {
+            "streams": ["MEC", "CEC", "HEC"],
+            "subjects": ["Commerce", "Economics", "Civics"],
+            "interests": ["Law", "Business", "Government Services"],
+            "skills": ["Communication", "Leadership"],
+            "keywords": ["company secretary", "corporate law", "compliance", "governance"]
+          },
+          "exams": ["CSEET"],
+          "required_skills": ["Corporate law basics", "Communication", "Business awareness"],
+          "next_steps": ["Read about company law basics", "Prepare for CSEET", "Improve written communication"]
+        },
+        {
+          "name": "Law",
+          "description": "Legal education path for students interested in advocacy, public policy, governance, business law, or social justice.",
+          "criteria": {
+            "streams": ["MPC", "BiPC", "MEC", "CEC", "HEC"],
+            "subjects": ["English", "Civics", "Economics"],
+            "interests": ["Law", "Government Services", "Business"],
+            "skills": ["Communication", "Leadership", "Logical Reasoning"],
+            "keywords": ["law", "legal", "advocate", "judge", "policy"]
+          },
+          "exams": ["CLAT", "AILET", "LSAT India"],
+          "required_skills": ["Reading comprehension", "Legal reasoning", "Current affairs"],
+          "next_steps": ["Start current affairs reading", "Practice logical reasoning", "Explore CLAT sample papers"]
+        },
+        {
+          "name": "Design Programs",
+          "description": "Creative degree path for students interested in product design, communication design, UI/UX, fashion, animation, or visual media.",
+          "criteria": {
+            "streams": ["MPC", "BiPC", "MEC", "CEC", "HEC"],
+            "subjects": ["English", "Computer Science"],
+            "interests": ["Design", "Software", "Business"],
+            "skills": ["Creativity", "Communication", "Problem Solving"],
+            "keywords": ["design", "ux", "creative", "animation", "fashion", "product"]
+          },
+          "exams": ["NID DAT", "UCEED", "NIFT", "Design aptitude tests"],
+          "required_skills": ["Sketching", "Observation", "Portfolio building", "Creative problem solving"],
+          "next_steps": ["Start a design portfolio", "Practice sketching and observation", "Explore UI/UX or product design basics"]
+        }
+      ]
+    },
+    "undergraduate": {
+      "label": "Undergraduate Student",
+      "weights": {
+        "cgpa": 20,
+        "skills": 30,
+        "projects": 15,
+        "internships": 15,
+        "certifications": 10,
+        "interests": 10
+      },
+      "recommendations": [
+        {
+          "name": "AI Engineer",
+          "description": "Builds AI-enabled products, model pipelines, intelligent automation, and applied machine learning systems.",
+          "criteria": {
+            "degrees": ["B.Tech", "B.Sc", "BCA"],
+            "branches": ["CSE", "AIML", "IT", "ECE"],
+            "skills": ["Python", "Machine Learning", "Deep Learning", "SQL", "Cloud Computing"],
+            "interests": ["AI Engineer", "Research Engineer", "Data Scientist"],
+            "certifications": ["Coursera", "Google", "Microsoft", "AWS"],
+            "projects_target": 3,
+            "internships_target": 1
+          },
+          "recommended_certifications": ["Machine Learning specialization", "Google AI certificate", "AWS Machine Learning foundations"],
+          "recommended_projects": ["Chatbot with retrieval", "Image classification model", "AI-powered recommendation system"],
+          "internship_suggestions": ["AI intern", "ML engineering intern", "Data science intern"],
+          "next_steps": ["Build two deployable ML projects", "Practice Python and SQL daily", "Learn model deployment basics"]
+        },
+        {
+          "name": "Data Scientist",
+          "description": "Uses statistics, machine learning, and visualization to extract insights and build predictive decision systems.",
+          "criteria": {
+            "degrees": ["B.Tech", "B.Sc", "BCA", "B.Com", "BBA"],
+            "branches": ["CSE", "AIML", "IT", "ECE", "Commerce", "Business Analytics"],
+            "skills": ["Python", "SQL", "Machine Learning", "Data Analysis", "Statistics"],
+            "interests": ["Data Scientist", "AI Engineer", "Research Engineer"],
+            "certifications": ["Coursera", "Google", "Microsoft"],
+            "projects_target": 3,
+            "internships_target": 1
+          },
+          "recommended_certifications": ["Google Data Analytics", "IBM Data Science", "SQL certification"],
+          "recommended_projects": ["Sales forecasting dashboard", "Customer segmentation", "End-to-end ML model"],
+          "internship_suggestions": ["Data analyst intern", "Business intelligence intern", "Data science intern"],
+          "next_steps": ["Create a data portfolio", "Practice SQL case studies", "Learn statistics and visualization"]
+        },
+        {
+          "name": "Software Engineer",
+          "description": "Designs and builds reliable applications, APIs, platforms, and software products for users and businesses.",
+          "criteria": {
+            "degrees": ["B.Tech", "B.Sc", "BCA"],
+            "branches": ["CSE", "AIML", "IT", "ECE"],
+            "skills": ["Java", "Python", "C++", "DSA", "Web Development", "SQL"],
+            "interests": ["Software Engineer", "Product Manager"],
+            "certifications": ["Udemy", "Microsoft", "Coursera"],
+            "projects_target": 4,
+            "internships_target": 1
+          },
+          "recommended_certifications": ["Full-stack development", "Cloud fundamentals", "Data structures and algorithms"],
+          "recommended_projects": ["Full-stack SaaS app", "REST API backend", "Real-time dashboard"],
+          "internship_suggestions": ["Software development intern", "Backend intern", "Frontend intern"],
+          "next_steps": ["Strengthen DSA", "Ship a complete web app", "Prepare GitHub and resume projects"]
+        },
+        {
+          "name": "Cyber Security Analyst",
+          "description": "Protects systems by monitoring threats, testing vulnerabilities, hardening infrastructure, and improving security posture.",
+          "criteria": {
+            "degrees": ["B.Tech", "B.Sc", "BCA"],
+            "branches": ["CSE", "IT", "ECE"],
+            "skills": ["Cyber Security", "Networking", "Linux", "Python", "Cloud Computing"],
+            "interests": ["Cyber Security Analyst", "Research Engineer"],
+            "certifications": ["Microsoft", "AWS", "Coursera"],
+            "projects_target": 2,
+            "internships_target": 1
+          },
+          "recommended_certifications": ["Security+", "Microsoft Security fundamentals", "AWS security fundamentals"],
+          "recommended_projects": ["Network scanner", "Web vulnerability lab", "Security incident report"],
+          "internship_suggestions": ["SOC intern", "Security analyst intern", "Network security intern"],
+          "next_steps": ["Practice Linux and networking", "Build a security lab", "Learn OWASP Top 10"]
+        },
+        {
+          "name": "Cloud Engineer",
+          "description": "Builds, deploys, and manages scalable cloud infrastructure, automation, monitoring, and production environments.",
+          "criteria": {
+            "degrees": ["B.Tech", "B.Sc", "BCA"],
+            "branches": ["CSE", "IT", "AIML", "ECE"],
+            "skills": ["Cloud Computing", "Linux", "Python", "SQL", "Web Development"],
+            "interests": ["Cloud Engineer", "Software Engineer", "Product Manager"],
+            "certifications": ["AWS", "Microsoft", "Google"],
+            "projects_target": 3,
+            "internships_target": 1
+          },
+          "recommended_certifications": ["AWS Cloud Practitioner", "Azure Fundamentals", "Google Cloud Digital Leader"],
+          "recommended_projects": ["Deploy app on cloud", "CI/CD pipeline", "Cloud monitoring dashboard"],
+          "internship_suggestions": ["Cloud intern", "DevOps intern", "Site reliability intern"],
+          "next_steps": ["Learn one cloud platform deeply", "Deploy projects publicly", "Practice Linux and networking basics"]
+        },
+        {
+          "name": "Product Manager",
+          "description": "Connects user needs, business goals, and engineering execution to build successful digital products.",
+          "criteria": {
+            "degrees": ["B.Tech", "BBA", "B.Com", "BA", "BCA"],
+            "branches": ["CSE", "IT", "Commerce", "Business Analytics", "Economics"],
+            "skills": ["Communication", "Data Analysis", "Leadership", "UI Design", "Presentation"],
+            "interests": ["Product Manager", "Software Engineer", "Data Scientist"],
+            "certifications": ["Coursera", "Google", "Udemy"],
+            "projects_target": 2,
+            "internships_target": 1
+          },
+          "recommended_certifications": ["Product management fundamentals", "Google UX fundamentals", "Analytics for product"],
+          "recommended_projects": ["Product case study", "User research report", "Feature prioritization roadmap"],
+          "internship_suggestions": ["Product intern", "Business analyst intern", "Growth intern"],
+          "next_steps": ["Write product case studies", "Learn analytics and UX basics", "Practice stakeholder communication"]
+        },
+        {
+          "name": "Research Engineer",
+          "description": "Works on experimental systems, technical prototypes, research papers, and advanced engineering investigations.",
+          "criteria": {
+            "degrees": ["B.Tech", "B.Sc"],
+            "branches": ["CSE", "AIML", "ECE", "Mechanical", "Civil", "EEE"],
+            "skills": ["Research", "Python", "Machine Learning", "Communication", "Data Analysis"],
+            "interests": ["Research Engineer", "AI Engineer", "Data Scientist"],
+            "certifications": ["NPTEL", "Coursera"],
+            "projects_target": 3,
+            "internships_target": 1
+          },
+          "recommended_certifications": ["NPTEL research-oriented course", "Technical writing", "Domain specialization course"],
+          "recommended_projects": ["Paper implementation", "Simulation study", "Prototype with evaluation report"],
+          "internship_suggestions": ["Research intern", "Lab assistant intern", "R&D intern"],
+          "next_steps": ["Read papers weekly", "Document experiments", "Connect with faculty for research guidance"]
+        }
+      ]
+    },
+    "job_seeker": {
+      "label": "Job Seeker",
+      "weights": {
+        "experience": 20,
+        "skills": 30,
+        "projects": 15,
+        "certifications": 15,
+        "resume_score": 20
+      },
+      "recommendations": [
+        {
+          "name": "Software Developer",
+          "description": "Builds web, backend, mobile, and enterprise software applications for product or service teams.",
+          "criteria": {
+            "industries": ["IT", "Banking", "Healthcare", "Government"],
+            "skills": ["Python", "Java", "JavaScript", "SQL", "DSA", "Web Development"],
+            "certifications": ["Microsoft", "AWS", "Coursera", "Udemy"],
+            "experience_target": 2,
+            "projects_target": 4
+          },
+          "next_steps": ["Improve DSA and system design basics", "Add measurable project impact to resume", "Apply for backend, frontend, and full-stack roles"],
+          "resume_suggestions": ["Highlight deployed projects", "Add tech stack keywords", "Quantify performance or user impact"]
+        },
+        {
+          "name": "Data Analyst",
+          "description": "Transforms data into reports, dashboards, business insights, and decision-ready analysis.",
+          "criteria": {
+            "industries": ["IT", "Banking", "Healthcare", "Manufacturing", "Government"],
+            "skills": ["SQL", "Excel", "Python", "Data Analysis", "Power BI", "Communication"],
+            "certifications": ["Google", "Microsoft", "Coursera"],
+            "experience_target": 1,
+            "projects_target": 3
+          },
+          "next_steps": ["Create dashboard portfolio projects", "Practice SQL interview questions", "Add business impact statements to resume"],
+          "resume_suggestions": ["Show dashboard links", "Use analyst keywords", "Include metrics and tools"]
+        },
+        {
+          "name": "Cloud Support Engineer",
+          "description": "Supports cloud infrastructure, troubleshooting, deployments, monitoring, and customer technical operations.",
+          "criteria": {
+            "industries": ["IT", "Banking", "Healthcare"],
+            "skills": ["Cloud Computing", "Linux", "Networking", "Python", "AWS"],
+            "certifications": ["AWS", "Microsoft", "Google"],
+            "experience_target": 2,
+            "projects_target": 2
+          },
+          "next_steps": ["Earn a cloud fundamentals certification", "Build a cloud deployment project", "Practice Linux and networking troubleshooting"],
+          "resume_suggestions": ["Add cloud services used", "Mention uptime or troubleshooting examples", "Include certification IDs"]
+        },
+        {
+          "name": "Cyber Security Associate",
+          "description": "Entry to mid-level security role focused on monitoring, vulnerability review, incident handling, and basic security operations.",
+          "criteria": {
+            "industries": ["IT", "Banking", "Government", "Research"],
+            "skills": ["Cyber Security", "Networking", "Linux", "Python", "Communication"],
+            "certifications": ["Microsoft", "AWS", "Coursera"],
+            "experience_target": 1,
+            "projects_target": 2
+          },
+          "next_steps": ["Build a security lab", "Learn SIEM basics", "Practice incident report writing"],
+          "resume_suggestions": ["Add security tools and labs", "Include vulnerability reports", "Show networking and Linux keywords"]
+        },
+        {
+          "name": "Business Analyst",
+          "description": "Analyzes business problems, documents requirements, improves workflows, and connects stakeholders with technical teams.",
+          "criteria": {
+            "industries": ["IT", "Banking", "Healthcare", "Manufacturing"],
+            "skills": ["Communication", "SQL", "Data Analysis", "Presentation", "Leadership"],
+            "certifications": ["Google", "Microsoft", "Coursera"],
+            "experience_target": 2,
+            "projects_target": 2
+          },
+          "next_steps": ["Practice requirement documents", "Learn process mapping", "Build a case study portfolio"],
+          "resume_suggestions": ["Show stakeholder communication", "Add requirement gathering keywords", "Quantify process improvements"]
+        },
+        {
+          "name": "Research Assistant",
+          "description": "Supports research teams with literature review, experiments, data collection, documentation, and prototype evaluation.",
+          "criteria": {
+            "industries": ["Research", "Healthcare", "Government", "IT"],
+            "skills": ["Research", "Python", "Data Analysis", "Communication", "Machine Learning"],
+            "certifications": ["NPTEL", "Coursera"],
+            "experience_target": 1,
+            "projects_target": 2
+          },
+          "next_steps": ["Prepare a research portfolio", "Write project reports clearly", "Apply to labs, universities, and R&D teams"],
+          "resume_suggestions": ["Mention papers or reports", "Add research methods", "Include experiment outcomes"]
+        }
+      ]
+    },
+    "higher_studies": {
+      "label": "Higher Studies Aspirant",
+      "weights": {
+        "cgpa": 20,
+        "subject_marks": 30,
+        "research_interests": 20,
+        "projects": 15,
+        "publications": 15
+      },
+      "recommendations": [
+        {
+          "name": "M.Tech in Artificial Intelligence",
+          "description": "Postgraduate specialization for students aiming to deepen AI, machine learning, and intelligent systems expertise.",
+          "criteria": {
+            "goals": ["M.Tech", "MS", "PhD"],
+            "subjects": ["AI", "Machine Learning", "Data Structures", "Statistics"],
+            "research_interests": ["Artificial Intelligence", "Data Science", "Robotics"],
+            "projects_target": 3,
+            "publications_target": 1
+          },
+          "universities": ["IISc Bengaluru", "IIT Hyderabad", "IIIT Hyderabad", "Carnegie Mellon University", "University of Toronto"],
+          "exams": ["GATE CSE / DA", "GRE", "IELTS / TOEFL"],
+          "next_steps": ["Prepare AI-focused statement of purpose", "Build research-grade ML projects", "Shortlist AI labs and faculty"]
+        },
+        {
+          "name": "MS in Data Science",
+          "description": "International or Indian postgraduate path focused on analytics, statistics, machine learning, and data-driven products.",
+          "criteria": {
+            "goals": ["MS", "M.Tech"],
+            "subjects": ["Machine Learning", "DBMS", "Statistics", "Software Engineering"],
+            "research_interests": ["Data Science", "Artificial Intelligence", "Cloud Computing"],
+            "projects_target": 3,
+            "publications_target": 1
+          },
+          "universities": ["University of Washington", "University of Toronto", "TU Munich", "IIT Madras", "IIIT Bangalore"],
+          "exams": ["GRE", "IELTS / TOEFL", "GATE DA"],
+          "next_steps": ["Build a data portfolio", "Prepare GRE and English tests if applying abroad", "Strengthen statistics and ML foundations"]
+        },
+        {
+          "name": "M.Tech in Cyber Security",
+          "description": "Advanced study path for students interested in secure systems, networks, cryptography, digital forensics, and privacy.",
+          "criteria": {
+            "goals": ["M.Tech", "MS", "PhD"],
+            "subjects": ["Computer Networks", "Operating Systems", "Software Engineering"],
+            "research_interests": ["Cyber Security", "Cloud Computing"],
+            "projects_target": 2,
+            "publications_target": 1
+          },
+          "universities": ["IIT Kanpur", "IIT Madras", "NIT Trichy", "University of Maryland", "University of Waterloo"],
+          "exams": ["GATE CSE", "GRE", "IELTS / TOEFL"],
+          "next_steps": ["Create a security research project", "Study networks and OS deeply", "Prepare for GATE or GRE depending on target country"]
+        },
+        {
+          "name": "M.Tech in VLSI / Embedded Systems",
+          "description": "Specialized postgraduate path for electronics students interested in chip design, embedded devices, IoT, and hardware systems.",
+          "criteria": {
+            "goals": ["M.Tech", "MS"],
+            "subjects": ["VLSI", "Signals", "Embedded Systems", "Digital Electronics"],
+            "research_interests": ["VLSI", "Embedded Systems", "Robotics"],
+            "projects_target": 2,
+            "publications_target": 1
+          },
+          "universities": ["IIT Bombay", "IIT Madras", "IISc Bengaluru", "TU Dresden", "Arizona State University"],
+          "exams": ["GATE ECE", "GRE", "IELTS / TOEFL"],
+          "next_steps": ["Build embedded or VLSI projects", "Strengthen digital electronics", "Shortlist labs in semiconductor and embedded systems"]
+        },
+        {
+          "name": "MBA",
+          "description": "Management path for students who want leadership, product, strategy, operations, consulting, or entrepreneurship roles.",
+          "criteria": {
+            "goals": ["MBA"],
+            "subjects": ["Software Engineering", "Economics", "Core Subject 1"],
+            "research_interests": ["Data Science", "Cloud Computing", "Artificial Intelligence"],
+            "projects_target": 2,
+            "publications_target": 0
+          },
+          "universities": ["IIM Ahmedabad", "IIM Bangalore", "ISB", "London Business School", "Rotman School of Management"],
+          "exams": ["CAT", "GMAT", "XAT", "IELTS / TOEFL"],
+          "next_steps": ["Prepare aptitude and verbal sections", "Build leadership examples", "Document internships, projects, and impact stories"]
+        },
+        {
+          "name": "PhD / Research Track",
+          "description": "Research-intensive path for students who want to contribute original knowledge and work in academia, labs, or advanced R&D.",
+          "criteria": {
+            "goals": ["PhD"],
+            "subjects": ["AI", "Machine Learning", "VLSI", "Embedded Systems", "Computer Networks", "Operating Systems"],
+            "research_interests": ["Artificial Intelligence", "Data Science", "Robotics", "Cyber Security", "VLSI", "Embedded Systems"],
+            "projects_target": 4,
+            "publications_target": 2
+          },
+          "universities": ["IISc Bengaluru", "IIT Bombay", "MIT", "Stanford University", "University of Cambridge"],
+          "exams": ["GATE", "GRE", "IELTS / TOEFL", "University research interviews"],
+          "next_steps": ["Identify research advisors", "Write a research proposal", "Convert projects into papers or technical reports"]
+        }
+      ]
+    }
+  }
+}

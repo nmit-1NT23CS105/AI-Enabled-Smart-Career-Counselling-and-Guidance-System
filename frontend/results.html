@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results | CareerSense AI</title>
+    <link rel="icon" href="/assets/icons/logo.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+  </head>
+  <body class="app-body">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="/dashboard">
+          <img src="/assets/icons/logo.svg" alt="CareerSense AI logo" />
+          <span>CareerSense AI</span>
+        </a>
+        <nav class="side-nav" aria-label="Dashboard navigation">
+          <a class="side-link" href="/dashboard"><span class="nav-dot"></span>Dashboard</a>
+          <a class="side-link" href="/assessment"><span class="nav-dot"></span>Assessment</a>
+          <a class="side-link active" href="/results"><span class="nav-dot"></span>Results</a>
+        </nav>
+        <button class="logout-button" type="button" id="logoutButton"><span class="nav-dot"></span>Logout</button>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div>
+            <h1>Results</h1>
+            <p id="resultsSubtitle">Top matches</p>
+          </div>
+          <div class="user-pill">
+            <span class="avatar" id="avatarInitials">ST</span>
+            <span id="topbarName">Student</span>
+          </div>
+        </header>
+
+        <section class="content results-layout">
+          <article class="dashboard-card chart-shell">
+            <p class="card-label">Chart</p>
+            <h2>Match Comparison</h2>
+            <div class="chart-wrap">
+              <canvas id="careerChart" aria-label="Career match comparison chart" role="img"></canvas>
+            </div>
+          </article>
+
+          <section>
+            <div id="resultsList" class="results-list">
+              <div class="empty-state">No results yet.</div>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/js/results.js"></script>
+  </body>
+</html>

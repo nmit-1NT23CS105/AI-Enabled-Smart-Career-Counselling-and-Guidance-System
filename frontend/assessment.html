@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Assessment | CareerSense AI</title>
+    <link rel="icon" href="/assets/icons/logo.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+    <link rel="stylesheet" href="/css/assessment.css" />
+  </head>
+  <body class="app-body">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="/dashboard">
+          <img src="/assets/icons/logo.svg" alt="CareerSense AI logo" />
+          <span>CareerSense AI</span>
+        </a>
+        <nav class="side-nav" aria-label="Dashboard navigation">
+          <a class="side-link" href="/dashboard"><span class="nav-dot"></span>Dashboard</a>
+          <a class="side-link active" href="/assessment"><span class="nav-dot"></span>Assessment</a>
+          <a class="side-link" href="/results"><span class="nav-dot"></span>Results</a>
+        </nav>
+        <button class="logout-button" type="button" id="logoutButton"><span class="nav-dot"></span>Logout</button>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div>
+            <h1>Assessment</h1>
+            <p id="assessmentSubtitle">Select your level</p>
+          </div>
+          <div class="user-pill">
+            <span class="avatar" id="avatarInitials">ST</span>
+            <span id="topbarName">Student</span>
+          </div>
+        </header>
+
+        <section class="content assessment-layout">
+          <form id="assessmentForm" class="form-card wizard-card" novalidate>
+            <div class="wizard-hero">
+              <div>
+                <p class="card-label">Assessment</p>
+                <h2 id="wizardTitle">Select your academic level</h2>
+                <p id="wizardDescription">Choose a level to begin.</p>
+              </div>
+              <div class="wizard-score">
+                <span id="progressText">Step 1 of 1</span>
+                <strong id="progressPercent">0%</strong>
+              </div>
+            </div>
+
+            <div class="input-group level-selector">
+              <label for="academicLevel">Academic Level</label>
+              <select id="academicLevel" name="academicLevel" required>
+                <option value="">Select academic level</option>
+                <option value="High School (8th - 10th)">High School (8th - 10th)</option>
+                <option value="Intermediate / PUC (11th - 12th)">Intermediate / PUC (11th - 12th)</option>
+                <option value="Undergraduate Student">Undergraduate Student</option>
+                <option value="Job Seeker">Job Seeker</option>
+                <option value="Higher Studies Aspirant">Higher Studies Aspirant</option>
+              </select>
+            </div>
+
+            <div class="progress-track wizard-progress" aria-hidden="true">
+              <div class="progress-fill" id="wizardProgress"></div>
+            </div>
+
+            <div class="step-tabs" id="stepTabs" aria-label="Assessment steps"></div>
+            <div class="wizard-panel" id="wizardPanel"></div>
+
+            <div class="assessment-actions">
+              <p class="form-message" id="formMessage" role="status"></p>
+              <div class="loader hidden" id="loadingState">
+                <span class="spinner"></span>
+                Processing
+              </div>
+              <div class="wizard-buttons">
+                <button class="btn btn-secondary" type="button" id="prevButton">Previous</button>
+                <button class="btn btn-secondary" type="button" id="nextButton">Next</button>
+                <button class="btn btn-primary hidden" type="submit" id="submitButton">Generate</button>
+              </div>
+            </div>
+          </form>
+
+          <aside class="guide-panel">
+            <p class="card-label">Scoring</p>
+            <h2 id="guideTitle">Weights</h2>
+            <p id="guideText">Level-based scoring.</p>
+            <ul class="quality-list" id="criteriaList">
+              <li>Select a level.</li>
+            </ul>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="/js/assessment.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | CareerSense AI</title>
+    <link rel="icon" href="/assets/icons/logo.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+  </head>
+  <body class="app-body">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="/dashboard">
+          <img src="/assets/icons/logo.svg" alt="CareerSense AI logo" />
+          <span>CareerSense AI</span>
+        </a>
+
+        <nav class="side-nav" aria-label="Dashboard navigation">
+          <a class="side-link active" href="/dashboard"><span class="nav-dot"></span>Dashboard</a>
+          <a class="side-link" href="/assessment"><span class="nav-dot"></span>Assessment</a>
+          <a class="side-link" href="/results"><span class="nav-dot"></span>Results</a>
+        </nav>
+
+        <button class="logout-button" type="button" id="logoutButton"><span class="nav-dot"></span>Logout</button>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div>
+            <h1>Dashboard</h1>
+            <p id="dashboardSubtitle">Career workspace</p>
+          </div>
+          <div class="user-pill">
+            <span class="avatar" id="avatarInitials">ST</span>
+            <span id="topbarName">Student</span>
+          </div>
+        </header>
+
+        <section class="content">
+          <div class="dashboard-grid">
+            <article class="dashboard-card welcome-card span-7">
+              <p class="card-label">Welcome</p>
+              <h2 id="welcomeTitle">Welcome back</h2>
+              <p>Start an assessment to view matches.</p>
+              <a class="btn btn-primary" href="/assessment">Start Assessment</a>
+            </article>
+
+            <article class="dashboard-card span-5">
+              <p class="card-label">Profile</p>
+              <h3>Details</h3>
+              <div class="profile-list">
+                <div class="profile-row">
+                  <span>Full Name</span>
+                  <strong id="profileName">-</strong>
+                </div>
+                <div class="profile-row">
+                  <span>Email</span>
+                  <strong id="profileEmail">-</strong>
+                </div>
+                <div class="profile-row">
+                  <span>Academic Level</span>
+                  <strong id="profileAcademic">-</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="dashboard-card span-6">
+              <p class="card-label">Assessment</p>
+              <div class="assessment-cta">
+                <div>
+                  <h3>Career Assessment</h3>
+                  <p>Answer a few questions.</p>
+                  <a class="btn btn-secondary" href="/assessment">Open Assessment</a>
+                </div>
+                <div class="cta-mark">AI</div>
+              </div>
+            </article>
+
+            <article class="dashboard-card span-6">
+              <p class="card-label">Recent</p>
+              <h3>Matches</h3>
+              <div id="recentRecommendations" class="recent-list">
+                <div class="empty-state">No matches yet.</div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/js/dashboard.js"></script>
+  </body>
+</html>

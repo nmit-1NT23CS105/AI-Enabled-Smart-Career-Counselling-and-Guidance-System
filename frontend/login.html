@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | CareerSense AI</title>
+    <link rel="icon" href="/assets/icons/logo.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main class="auth-page">
+      <section class="auth-shell">
+        <aside class="auth-aside">
+          <a class="brand" href="/">
+            <img src="/assets/icons/logo.svg" alt="CareerSense AI logo" />
+            <span>CareerSense AI</span>
+          </a>
+          <h2>Welcome back</h2>
+          <p>Continue to your dashboard.</p>
+        </aside>
+
+        <section class="auth-card fade-up">
+          <a class="brand" href="/">
+            <img src="/assets/icons/logo.svg" alt="CareerSense AI logo" />
+            <span>CareerSense AI</span>
+          </a>
+          <h1>Login</h1>
+
+          <form id="loginForm" novalidate>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="student@example.com" required />
+            </div>
+
+            <div class="input-group">
+              <label for="password">Password</label>
+              <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter password" required />
+            </div>
+
+            <p class="form-message" id="formMessage" role="status"></p>
+            <button class="btn btn-primary btn-full" type="submit" id="loginButton">Login</button>
+          </form>
+
+          <p class="switch-link">New here? <a href="/register">Create an account</a></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/js/login.js"></script>
+  </body>
+</html>
